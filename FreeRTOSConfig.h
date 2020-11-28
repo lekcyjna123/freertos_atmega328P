@@ -83,6 +83,7 @@
 #define configUSE_16_BIT_TICKS		1
 #define configIDLE_SHOULD_YIELD		1
 #define configQUEUE_REGISTRY_SIZE	0
+#define configUSE_MUTEXES 1
 
 /* Co-routine definitions. */
 #define configUSE_CO_ROUTINES 		1
@@ -98,6 +99,6 @@ to exclude the API function. */
 #define INCLUDE_vTaskSuspend			1
 #define INCLUDE_vTaskDelayUntil			1
 #define INCLUDE_vTaskDelay				1
-
+#define INCLUDE_xTaskGetCurrentTaskHandle 1
 
 #endif /* FREERTOS_CONFIG_H */
